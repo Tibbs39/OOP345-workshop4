@@ -52,13 +52,5 @@ int main(int argc, char* argv[])
 
     notifications.display(std::cout);
 
-    std::cout << "\nCopy Constructor\n=============\n\n";
-    w4::Notifications a = notifications;
-    a.display(std::cout);
-
-    std::cout << "\nMove Constructor\n=============\n\n";
-    w4::Notifications b = std::move(a);
-    b.display(std::cout);
-
     return 0;
 }
