@@ -98,10 +98,9 @@ void Notifications::operator+=(const Message& other) {
 
 void Notifications::display(std::ostream& os) const {
     for (size_t i = 0; i < size; ++i) {
-        if (msgs[i])
-            msgs[i]->display(os);
-        
-        if (i != size - 1)
+        if (msgs[i]) {
+            msgs[i]->display(os);        
             os << std::endl;
+        }
     }
 }
