@@ -9,10 +9,7 @@
 #include <iostream>
 #include "Notifications.h"
 
-
 using namespace w4;
-
-const size_t maxSize = 10;
 
 // set all pointers to null
 void Notifications::nullAll() {
@@ -22,7 +19,7 @@ void Notifications::nullAll() {
 }
 
 // default constructor
-Notifications::Notifications() : max{maxSize} {
+Notifications::Notifications() {
     nullAll();
 }
 
@@ -34,7 +31,7 @@ Notifications::~Notifications() {
 }
 
 // copy constructor
-Notifications::Notifications(Notifications& other) : max{maxSize} {
+Notifications::Notifications(Notifications& other) {
     nullAll();
     *this = other;
 }
@@ -62,7 +59,7 @@ Notifications& Notifications::operator=(Notifications& other) {
 }
 
 // move constructor
-Notifications::Notifications(Notifications&& other) : max{maxSize} {
+Notifications::Notifications(Notifications&& other) {
     nullAll();
     *this = std::move(other);
 }
