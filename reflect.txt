@@ -1,0 +1,15 @@
+// Name:  Kenneth Yue
+// Seneca Student ID: 127932176
+// Seneca email:  kyue3@myseneca.ca
+// Date of completion: Oct 03, 2018
+//
+// I confirm that the content of this file is created by me,
+// with exception of the parts provided to me by my professor
+
+In this workshop I learned to create a custom container class that
+is in a composition relationship with another class. Since this 
+class will contain an array of pointers, the rule of 5 (constructor, 
+destructor, copy constructor/assignment, move constructor/assignment) 
+had to be kept in consideration throughout this workshop. This workshop
+also refreshed me on how to read lines from a file and parse them into
+string objects based on some simple rules.
