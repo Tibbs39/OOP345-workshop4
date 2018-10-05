@@ -16,7 +16,7 @@ using namespace w4;
 // constructor
 Message::Message(std::ifstream& fin, char delim) {
     // getline up to delim and store in temp string
-    unsigned int pos = 0;
+    int pos = 0;
     std::string temp;
     getline(fin, temp, delim);
 

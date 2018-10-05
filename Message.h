@@ -21,7 +21,7 @@ namespace w4 {
         std::string tweet;
 
         public:
-            // default constructor
+            // constructor
             Message(std::ifstream&, char);
             // returns if message is empty
             bool empty() const;
