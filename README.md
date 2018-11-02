@@ -1,4 +1,4 @@
-# Workshop 04 - Containers
+# Workshop 04 - Basic Containers
 
 In this workshop, you code a container class that holds notifications and a class that holds separate messages.
 
